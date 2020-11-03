@@ -1,0 +1,11 @@
+framework module JivoShared {
+  umbrella header "JivoShared.h"
+
+  export *
+  module * { export * }
+}
+
+module JivoShared.Swift {
+    header "JivoShared-Swift.h"
+    requires objc
+}
